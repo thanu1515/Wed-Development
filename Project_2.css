@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  label {
+    color: green;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  button[type="button"] {
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="button"]:hover {
+    background-color: greenyellow;
+  }

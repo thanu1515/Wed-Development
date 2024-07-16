@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  h2 {
+    color: blueviolet;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+  }

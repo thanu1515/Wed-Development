@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: White;
+  }
+  
+  .C {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: black;
+    color: lightseagreen;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .headline {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .intro, .highlights, .qualifications, .Call-to-Catch, .footer {
+    background-color: lightseagreen;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .intro h2, .highlights h2, .qualifications h2, .call-to-catch h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .B {
+    display: inline-block;
+    background-color: Black;
+    color: lightseagreen;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .B:hover {
+    background-color: darkcyan;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+  }
+  

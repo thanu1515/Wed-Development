@@ -1,0 +1,63 @@
+body 
+  {
+    font-family: Arial, sans-serif;
+    background-color: lightseagreen;
+  }
+  
+  .Menubar
+  {
+    background-color: gray;
+    padding: 50px 50px;
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+  }
+  
+  .Menubar li 
+  {
+    margin-left: 50px;
+  }
+  
+  .Menubar li a 
+  {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .menu-icon 
+  {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; 
+  }
+
+   @media (max-width: 600px) 
+ {
+    .Menubar
+    {
+      display: none; 
+      flex-direction: column; 
+      position: absolute;
+      top: 50px; 
+      left: 0;
+      right: 0;
+      background-color: #333;
+      padding: 10px 0;
+    }
+  
+    .Menubar li {
+      margin-bottom: 10px;
+    }
+  
+    .menu-icon 
+    {
+      display: block; 
+    }
+  
+    #Icon:checked + .Menubar
+    {
+      display: flex;
+    }
+  }
+  

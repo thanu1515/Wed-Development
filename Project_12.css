@@ -1,0 +1,66 @@
+
+.detailed-view-bg-container {
+    height: 110vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: Black;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.detailed-view-card-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: Gray;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.textalign-right {
+    text-align: right;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.detailed-view-bg-container1 {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+.detailed-view-bg-container2 {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+.detailed-view-bg-container3 {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+}
+
+.detail-view-heading-bgpart {
+    color: blue;
+    text-decoration: underline;
+    font-style: italic;
+
+}
